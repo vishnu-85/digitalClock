@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Clock</title>
+
+<link href="http://allfont.net/allfont.css?fonts=digital-7" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div ng-app="timeApp" ng-controller="timeCtrl" class="main">
+	<div class="date">
+		{{currentDate}}
+	</div>
+	<div class="time"> 
+		{{theTime}}
+	</div>	
+</div>
+<script src="js/angular.min.js"></script>
+<script src="js/ctrl.js"></script>
+</body>
+</html>

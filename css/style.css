@@ -1,0 +1,37 @@
+body{
+			background-image: url("../img/bg.jpg");
+			background-position: center;
+			background-size: cover;
+		}
+		.main{
+			margin : 15% auto;
+		}
+		.date{
+			margin : 0 auto;
+			max-width: 700px;
+			color: #fff;
+			text-align: left;
+			font-size: 35px;
+			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		}
+		.time{
+			color: #11e269;
+			text-align: center;
+			font-size: 300px;
+			font-family: 'Digital-7', arial;
+        }
+		@media only screen and (max-width: 768px) {
+		    .date{
+				margin : 0 auto;
+				color: #fff;
+				text-align: center;
+				font-size: 28px;
+				font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+				}
+			.time{
+				color: #11e269;
+				text-align: center;
+				font-size: 140px;
+				font-family: 'Digital-7', arial;
+	        }
+		}
