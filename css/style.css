@@ -4,20 +4,19 @@ body{
 			background-size: cover;
 		}
 		.main{
+			max-width: 900px;
 			margin : 15% auto;
 		}
 		.date{
-			margin : 0 auto;
-			max-width: 700px;
-			color: #fff;
+			color: #35afea;
 			text-align: left;
 			font-size: 35px;
 			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 		}
 		.time{
-			color: #11e269;
+			color: #13d82d;
 			text-align: center;
-			font-size: 300px;
+			font-size: 200px;
 			font-family: 'Digital-7', arial;
         }
 		@media only screen and (max-width: 768px) {
