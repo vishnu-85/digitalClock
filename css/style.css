@@ -17,7 +17,7 @@ body{
 		.time{
 			color: #13d82d;
 			text-align: center;
-			font-size: 300px;
+			font-size: 200px;
 			font-family: 'Digital-7', arial;
         }
 		@media only screen and (max-width: 768px) {
@@ -44,7 +44,7 @@ body{
 			.time{
 				color: #11e269;
 				text-align: center;
-				font-size: 100px;
+				font-size: 90px;
 				font-family: 'Digital-7', arial;
 	        }
 		}
