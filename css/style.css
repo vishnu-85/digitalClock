@@ -2,6 +2,7 @@ body{
 			background-image: url("../img/bg.jpg");
 			background-position: center;
 			background-size: cover;
+			position: relative;
 		}
 		.main{
 			max-width: 900px;
@@ -16,10 +17,23 @@ body{
 		.time{
 			color: #13d82d;
 			text-align: center;
-			font-size: 200px;
+			font-size: 300px;
 			font-family: 'Digital-7', arial;
         }
 		@media only screen and (max-width: 768px) {
+			
+			body{
+				background-color: #000;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				position: relative;
+			}
+			.main{
+				max-width: 450px;
+				margin : 50% auto;
+			}
+
 		    .date{
 				margin : 0 auto;
 				color: #fff;
@@ -30,7 +44,7 @@ body{
 			.time{
 				color: #11e269;
 				text-align: center;
-				font-size: 140px;
+				font-size: 100px;
 				font-family: 'Digital-7', arial;
 	        }
 		}
